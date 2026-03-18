@@ -1,9 +1,9 @@
 # libre2fit
-Script in Python per importare i dati della glicemia esportati da FreeStyle Libre (LibreLink) direttamente su Google Fit.
+Script in Python per importare i dati della glicemia esportati da FreeStyle Libre (tramite LibreView) direttamente su Google Fit.
 
 ### 1\. Esportazione CSV da LibreView
 
-1.  Accedi a [LibreView.com](https://www.libreview.com/) con le tue credenziali, verifica che sia impostata la lingua su "Italiano"
+1.  Accedi a [LibreView.com](https://www.libreview.com/) con le tue credenziali, verifica che sia impostata la lingua su italiano o inglese.
 
 2.  Clicca sul tasto **Scarica dati glicemia** in alto a destra.
 
@@ -56,4 +56,4 @@ Script in Python per importare i dati della glicemia esportati da FreeStyle Libr
 Non eliminare il file *last_sync.txt*, in quanto viene utilizzato per evitare che eventuali sincronizzazioni future riscrivano dati già precedente inviati a Fit.
 
 **Problemi noti**
-Se LibreView è impostato in una lingua diversa dall'italiano, anche il CSV sarà in quella lingua. In questo caso lo script fallirà in quanto non sarà in grado di trovare l'intestazione del CSV.
+Se LibreView è impostato in una lingua diversa da italiano o inglese., anche il CSV sarà in quella lingua. In questo caso lo script fallirà in quanto non sarà in grado di trovare l'intestazione del CSV.
